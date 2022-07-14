@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Edu+SA+Beginner:wght@500&display=swap');
+
+body {
+    margin:50px;
+    background-image: url("Website_background_005.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#nav {
+    color:blue;
+    background-image: url("Website_background_006.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:15px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+/* display:flex plus some parameters can help organise my work, even on mobile devices */
+
+#nav a{
+    color: blue;
+    font-size: 23px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+/* Can target specific parts inside a tag */
+
+#nav a:hover {
+    background-color:rgba(53, 136, 45, 0.9);
+}
+
+.title {
+    color:rgb(11, 0, 71);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-decoration: underline;
+    background-image: url("Website_background_006.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+
+.main {
+    font-size: 40px;
+}
+
+.sub {
+    font-size: 30px;
+}
+
+.normal_text p{
+    display:flex;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 18px;
+    color:rgb(11, 0, 71);
+    background-color: rgba(224, 110, 34, 0.9);
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+
+.images {
+    max-width:100%;
+
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.link {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    background-color: rgba(180, 34, 224, 0.9);
+}
+
+.link a:hover {
+    background-color:rgba(53, 136, 45, 0.9);
+}
+
+.f_page_im {
+    width: 25%;
+}
+
+.normal_text ul {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 17px;
+    color:rgb(11, 0, 71);
+    background-color:rgba(236, 198, 25, 0.9);
+    padding: 15px;
+    padding-left: 30px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+
+.ex h3 {
+    display: flex;
+    color:rgb(11, 0, 71);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-decoration: underline;
+    font-size: 25px;
+    background-color:rgba(247, 31, 60, 0.9);
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+
+
+.ex h4 {
+    display: flex;
+    color:rgb(11, 0, 71);
+    font-family: 'Edu SA Beginner', cursive;
+    text-decoration: underline;
+    font-size: 20px;
+    background-color:rgba(236, 85, 25, 0.9);
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+
+
+.co h3 {
+    display: flex;
+    color:rgb(11, 0, 71);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-decoration: underline;
+    font-size: 25px;
+    background-color:rgba(247, 31, 60, 0.9);
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+
+.co img {
+    max-width: 6%;
+}
+
+
+
+.email {
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 17px;
+    color:rgb(11, 0, 71);
+    background-color: rgba(224, 110, 34, 0.9);
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(19, 83, 201);
+}
+
+/* EXAMPLES TO REFERENCE */
+
+/* This is a comment. Can be set up with the usual ctrl /
+
+body {
+    margin:50px;
+    Adds margin to the body
+    background-image: url("Office_stock_photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    Adds a background image
+}
+
+h1 {
+    color:mediumpurple;
+    font-size:60px;
+}
+
+This is how you target a HTML element
+
+#nav {
+    background-color:mediumpurple;
+    font-family: fantasy;
+    font-size:30px;
+    font-style:italic;
+    font-weight:50px;
+}
+
+This is how you target an IDd div. Use for nav
+
+.intro {
+    background-color: aquamarine;
+}
+
+This is how you target class div. Use for anything after nav
+
+.red {
+    color:red;
+    color:rgba(90, 73, 73, 0)
+    The fourth value makes things transparent
+}
+
+.large {
+    font-size: 200px;
+}
+
+You can target specific parts of a class name
+
+.image{
+
+}
+
+.office {
+    display:flex;
+    justify-content:center;
+    width:100%;
+}
+
+Image classes can be targeted too
+
+*/
